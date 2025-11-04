@@ -1,19 +1,17 @@
-#Task 4 
-
 **Exam Category:** Understand and Use Essential Tools 
 **Exam Objective:** Access remote systems using SSH 
 
 ---
 
-## 🧠 Task 4 — Access Remote Systems Using SSH
+## Task 4 — Access Remote Systems Using SSH
 
 **Purpose:** 
 To practice connecting securely to remote systems using SSH, transferring files, and verifying success. 
-If you don’t have a real remote system, you can still **simulate** this locally. I will provide instructions
+If you don’t have a real remote system, you can still simulate this locally. I will provide instructions
 
 ---
 
-### 🧩 Instructions (With Real Remote System)
+### Instructions (With Real Remote System)
 
 1. Assume your remote system’s IP is `192.168.10.10` and the username is `admin`
 2. Use SSH to connect to the remote system. 
@@ -24,11 +22,10 @@ If you don’t have a real remote system, you can still **simulate** this locall
 7. Reconnect to the remote system and verify the file transfer to `/tmp`
 
 
-##(No Remote System)
+## No Remote System
 
 If you don’t have a second machine or virtual system to connect to, you can simulate SSH using **localhost** or by installing the SSH server locally.
 
-###Setup Local SSH Server
 
 # Install OpenSSH server (if not already installed)
 ```
