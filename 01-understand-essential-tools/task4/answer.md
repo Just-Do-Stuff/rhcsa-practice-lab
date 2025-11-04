@@ -1,5 +1,7 @@
-# Connect to remote system
+## Connect to remote system
+```
 ssh USERNAME@x.x.x.x 
+```
 
 ### x.x.x.x is the ip of the remote system you are connecting to
 
