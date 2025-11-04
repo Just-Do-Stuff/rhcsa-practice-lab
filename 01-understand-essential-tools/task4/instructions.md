@@ -22,22 +22,22 @@ If you don’t have a real remote system, you can still simulate this locally. I
 7. Reconnect to the remote system and verify the file transfer to `/tmp`
 
 
-## No Remote System
+### Insturctions If No Remote System
 
 If you don’t have a second machine or virtual system to connect to, you can simulate SSH using **localhost** or by installing the SSH server locally.
 
 
-# Install OpenSSH server (if not already installed)
+### Install OpenSSH server (if not already installed)
 ```
 sudo dnf install -y openssh-server
 ```
 
-# Enable and start the SSH service
+### Enable and start the SSH service
 ```
 sudo systemctl enable --now sshd
 ```
 
-# Verify it's running
+### Verify it's running
 ```
 sudo systemctl status sshd
 ```
@@ -45,21 +45,21 @@ sudo systemctl status sshd
 ### Simulate Connection and File Transfer
 You can now use your **own machine’s hostname or IP** to practice SSH commands:
 
-# Find your local IP address
+### Find your local IP address
 ```
 hostname -I
 ```
 
-# Connect to yourself using SSH
+### Connect to yourself using SSH
 ```
 ssh YOURUSERNAME@localhost
 ```
-# or
+### or
 ```
 ssh YOURUSERNAME@127.0.0.1
 ```
 
-# Verify connection
+### Verify connection
 ```
 hostname
 ```
