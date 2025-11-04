@@ -14,8 +14,7 @@ Each objective includes:
 ## Structure
 ```
 rhcsa-practice-lab/
-│
-├── 00-docs/                   # All documentation files
+├── 00-docs/                     # All documentation files
 │   ├── README.md
 │   ├── CONTRIBUTING.md
 │   ├── STRUCTURE_GUIDE.md
@@ -34,12 +33,12 @@ rhcsa-practice-lab/
 
 ## How to Use
 1. Clone this repository:
-   ```bash
-   git clone https://github.com/YOUR_USERNAME/rhcsa-practice-lab.git
+   ```
+   git clone https://github.com/Just-Do-Stuff/rhcsa-practice-lab.git
    cd rhcsa-practice-lab
    ```
 
-2. Start with `01-understand-essential-tools` and work through each task.
+2. Start with [01-understand-essential-tools](https://github.com/Just-Do-Stuff/rhcsa-practice-lab/tree/main/01-understand-essential-tools) and work through each task.
 
 3. Compare your answers with the provided `answer.md` files.
 
