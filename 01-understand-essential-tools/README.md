@@ -18,7 +18,9 @@ This category focuses on the foundational Linux commands and tools that foundati
 - List, set, and change standard ugo/rwx permissions 
 - Locate, read, and use system documentation including man, info, and files in /usr/share/doc
 
+Each exam objective will have 2 tasks. 
 
-[Task 1]()
+[Task 1](https://github.com/Just-Do-Stuff/rhcsa-practice-lab/blob/main/01-understand-essential-tools/task1/instructions.md)
 
-[Task 2]()
+
+[Task 2](https://github.com/Just-Do-Stuff/rhcsa-practice-lab/blob/main/01-understand-essential-tools/task2/instructions.md)
