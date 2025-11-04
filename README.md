@@ -1,7 +1,6 @@
 
 # RHCSA Practice Lab 
 
-A community-driven practice repository to prepare for the **Red Hat Certified System Administrator (RHCSA)** exam.
 
 ## 🔍 Purpose
 This repository provides hands-on, exam-style exercises for each RHCSA objective. It’s designed to help learners practice tasks aligned with real-world system administration scenarios.
@@ -11,6 +10,9 @@ Each objective includes:
 - Corresponding **answers** (`answer.md`)
 - Organized folders by **exam category**
 
+
+# IMPORTANT! 
+### It is ok if you get stuck on a task. That is where growth is. Use the *'man' pages* to find the answer. DO NOT USE CHATGPT. CHATGPT will *NOT* be there for you on the exam.
 
 ## How to Use
 
@@ -25,8 +27,6 @@ Each objective includes:
 
 3. Compare your answers with the provided `answer.md` files.
 
-##License
-This project is licensed under the **MIT License** (see `00-docs/LICENSE` for details).
 
 ---
 ⚠️ **Disclaimer:** This project does *not* contain any proprietary Red Hat exam material. It is for educational purposes only.
