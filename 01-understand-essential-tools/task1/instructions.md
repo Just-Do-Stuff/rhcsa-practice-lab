@@ -1,6 +1,7 @@
 ## Task 1
 
-**Exam Category:** Understand and Use Essential Tools 
+**Exam Category:** Understand and Use Essential Tools
+
 **Exam Objective:** Access a shell prompt and issue commands with correct syntax 
 
 **Purpose:** 
