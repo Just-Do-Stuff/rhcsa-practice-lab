@@ -7,7 +7,7 @@
 
 **Purpose:** 
 To practice connecting securely to remote systems using SSH, transferring files, and verifying success. 
-If you don’t have a real remote system, you can still simulate this locally. Instructions are [here]()
+If you don’t have a real remote system, you can still simulate this locally. Instructions are [here](https://github.com/Just-Do-Stuff/rhcsa-practice-lab/blob/main/01-understand-essential-tools/task4/localhost_sim.md)
 
 ---
 
