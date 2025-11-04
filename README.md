@@ -29,5 +29,5 @@ Each objective includes:
 
 
 ---
-⚠️ **Disclaimer:** This project does *not* contain any proprietary Red Hat exam material. It is for educational purposes only.
+⚠️ **Disclaimer:** All questions were created by me to help assist with RHCSA studies. This repo does not contain any proprietary Red Hat exam material
 
