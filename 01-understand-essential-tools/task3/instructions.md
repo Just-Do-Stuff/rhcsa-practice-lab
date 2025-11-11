@@ -1,4 +1,4 @@
-## 🧠 Task 3
+## Task 3
 
 **Exam Category:** Understand and Use Essential Tools 
 **Exam Objective:** Use grep and regular expressions to analyze text 
