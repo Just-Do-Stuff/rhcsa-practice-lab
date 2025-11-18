@@ -2,7 +2,7 @@
 # RHCSA Practice Lab 
 
 
-## 🔍 Purpose
+## Purpose
 This repository provides hands-on, exam-style exercises for each RHCSA objective. It’s designed to help learners practice tasks aligned with real-world system administration scenarios.
 
 Each objective includes:
@@ -29,5 +29,5 @@ Each objective includes:
 
 
 ---
-⚠️ **Disclaimer:** All questions were created by me to help assist with RHCSA studies. This repo does not contain any proprietary Red Hat exam material
+**Disclaimer:** All questions were created by me to help assist with RHCSA studies. This repo does not contain any proprietary Red Hat exam material
 
