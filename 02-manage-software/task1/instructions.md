@@ -1,4 +1,4 @@
-#Category 02: Manage Software
+# Category 02: Manage Software
 
 This category focuses on managing RPM and Flatpak software repositories and packages on Red Hat-based systems.
 
