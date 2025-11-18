@@ -4,9 +4,8 @@ This category focuses on managing RPM and Flatpak software repositories and pack
 
 ---
 
-## Tsk 1
+## Task 1
 
-**Exam Category:** Manage Software 
 **Exam Objectives:** 
 - Configure access to RPM repositories 
 - Install and remove RPM software packages 

@@ -6,7 +6,7 @@ mkdir -p ~/localrepo
 
 # 2. Download an RPM package to simulate repo content (example: tree)
 sudo dnf install -y dnf-plugins-core
-dnf download tree --destdir=~/localrepo
+sudo dnf download --destdir=~/localrepo tree
 
 # 3. Install createrepo if not installed
 sudo dnf install -y createrepo
@@ -15,13 +15,15 @@ sudo dnf install -y createrepo
 createrepo ~/localrepo
 
 # 5. Create a repository configuration file
-sudo tee /etc/yum.repos.d/localrepo.repo <<EOF
+vim /etc/yum.repos.d/localrepo.repo 
+
+```
 [localrepo]
 name=Local Repository
 baseurl=file:///home/$USER/localrepo
 enabled=1
 gpgcheck=0
-EOF
+```
 
 # 6. Verify repository is active
 sudo dnf repolist
@@ -36,17 +38,7 @@ rpm -q tree
 sudo dnf remove -y tree
 
 # 10. Verify removal
-rpm -q tree || echo "Package successfully removed"
-```
-
-**Expected Output Example:**
-```
-Repo-id          Repo-name
-localrepo        Local Repository
-Installing: tree
-Complete!
-tree-1.8.0-10.el9.x86_64
-Package successfully removed
+rpm -q tree
 ```
 
 ---
