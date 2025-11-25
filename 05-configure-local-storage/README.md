@@ -1,6 +1,7 @@
-# Before You Begin: Adding a Virtual Disk for Storage Tasks
+# Before You Begin: Add a Virtual Disk for Storage Tasks
 
 Most RHCSA storage tasks require a second disk. If you are practicing on a VM, you must add a virtual hard disk in order to complete Category 05 & 06 tasks.
+You can also go ahead and add a 3rd if your environment has the resources for it. We are going to do ALOT of practice with disks, so 3 would not hurt.
 
 ---
 
