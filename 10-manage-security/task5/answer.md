@@ -13,7 +13,7 @@ mkdir -p /web
 # 3) Create index.html using elevated privileges (permission-safe method)
 ```
 sudo tee /web/index.html <<EOF
-<h1>SELinux fixed. It works!</h1>
+<h1>Look at you being a Linux admin!</h1>
 EOF
 ```
 
@@ -21,14 +21,16 @@ EOF
 ```
 vim /etc/httpd/conf/httpd.conf
 ```
-### Update the following:
-
+### Update the following within httpd.conf:
+ - remove /var/www/html and change it to /web
+```
 DocumentRoot '/web'
+
   <Directory '/web'>
     AllowOverride None
      Require all granted
   </Directory>
- 
+``` 
 
 # 5) Start and enable Apache
 ```
@@ -53,11 +55,6 @@ getenforce
 ls -Zd /web /web/index.html
 ```
 
-# (View Logs)
-```
-journalctl -t setroubleshoot --no-pager
-```
-
 # 8) Define correct SELinux context for the new web root
 ```
 semanage fcontext -a -t httpd_sys_content_t "/web(/.*)?"
@@ -75,17 +72,19 @@ ls -Z /web /web/index.html
 # 10) Test again (should now work)
 ```
 curl http://localhost
+
+# You can also go to http://localhost direct on browser to see if it works.
 ```
 
 ---
-Lets say we do everything right and the issue doesnt resolve. It could be the listening port is using the wrong port, so we need to correct it.
+## Lets say we do everything right and the issue doesnt resolve. It could be the listening port is using the wrong port, so we need to correct it.
 
-This section reinforces SELinux port labeling concepts.
+## This section reinforces SELinux port labeling concepts.
 
-### Scenario
+## Scenario
 You want Apache to listen on port **8080** instead of 80.
 
-### Steps
+## Steps
 
 
 # 1) Update Apache listen port
@@ -101,6 +100,7 @@ firewall-cmd --reload
 ```
 
 # 3) Label port for httpd in SELinux
+### use man semanage port to see examples for syntax. No need to memorize it.
 ```
 semanage port -a -t http_port_t -p tcp 8080
 ```
