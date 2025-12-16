@@ -42,24 +42,12 @@ sudo flatpak uninstall -y org.gnome.Calculator
 ```
 # 9. Verify removal
 ```
-flatpak list | grep Calculator || echo "Flatpak application successfully removed"
+flatpak list | grep Calculator | echo " Uninstalled"
 ```
 
-**Expected Output Example:**
-```
-Remotes:
-Name     Options
-flathub  system
-
-Found similar ref(s) for ‘org.gnome.Calculator’
-Installing: org.gnome.Calculator/x86_64/stable from flathub
-Complete!
-Flatpak application successfully removed
-```
 
 ---
 
 ### Notes
 - Flatpak apps are sandboxed and installed system-wide or per-user.  
 - Use `flatpak list` and `flatpak remotes` to verify configuration.  
-- RHCSA focuses on repository setup and command familiarity, not GUI interaction.  
