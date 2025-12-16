@@ -104,8 +104,8 @@ REMINDER: xfs cannot be shrunk. The only option is recreation.
 ## Notes
 
 - Each task directory contains:
-  - `instructions.md` → exam-style task prompt
-  - `answer.md` → one valid solution
+  - `instructions.md`
+  - `answer.md` →
 - Always verify your work using:
   - `lsblk`
   - `df -h`

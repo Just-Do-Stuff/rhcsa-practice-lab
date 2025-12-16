@@ -68,7 +68,7 @@ You will learn how to:
 
 ---
 
-## Safety Notice
+## Quick Disclaimer
 
 Network misconfiguration can cause **loss of connectivity**.
 

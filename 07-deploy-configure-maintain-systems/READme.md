@@ -35,7 +35,7 @@ You will learn how to:
 
 ---
 
-## Safety Notice
+## VERY IMPORTANT
 
 Some tasks in this category modify critical system behavior (boot targets, bootloader).
 You are strongly encouraged to:

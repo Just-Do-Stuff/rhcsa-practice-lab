@@ -89,15 +89,3 @@ You will practice:
 - Starting, stopping, enabling, and checking the status of a network service with `systemctl`
 - Using `scp` to securely transfer files to and from another system.
 
-
-
----
-
-## How This Connects to the Exam
-
-- Keep a system running and reachable 
-- Recover gracefully from boot or service problems.
-- Prove that you can read logs, interpret what’s happening, and take corrective action.
-- Safely manage processes and apply tuning where needed.
-- Use SSH and SCP as your basic remote access tools.
-
