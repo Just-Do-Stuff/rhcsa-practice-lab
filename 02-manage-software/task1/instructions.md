@@ -1,6 +1,7 @@
 ## Task 1
 
 **Exam Category:** Manage Software
+
 **Exam Objectives:** 
 - Configure access to RPM repositories 
 - Install and remove RPM software packages 
