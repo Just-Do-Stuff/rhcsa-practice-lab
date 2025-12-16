@@ -1,6 +1,7 @@
-Task 6
+## Task 6
 
 **Exam Category:** Understand and Use Essential Tools 
+
 **Exam Objective:** Archive, compress, unpack, and uncompress files using tar, gzip, and bzip2 
 
 ---

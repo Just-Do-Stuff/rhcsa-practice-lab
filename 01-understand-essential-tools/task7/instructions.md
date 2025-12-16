@@ -1,33 +1,16 @@
-ANSWER (COMMANDS + VERIFICATION)
+# Category 01: Understand and Use Essential Tools (Part 4)
 
+Task 7
 
-# 1. Create the directory
-```mkdir -p ~/text_practice
-```
-# 2. Create and write the first line
-```
-echo "Welcome to the RHCSA practice lab" > ~/text_practice/welcome.txt
-```
-
-# 3. Append the second line
-```
-echo "You are learning essential Linux tools." >> ~/text_practice/welcome.txt
-```
-
-# 4. Verify contents
-```
-cat ~/text_practice/welcome.txt
-```
-
-**Expected Output Example:**
-```
-Welcome to the RHCSA practice lab
-You are learning essential Linux tools.
-```
+**Exam Category:** Understand and Use Essential Tools 
+**Exam Objective:** Create and edit text files 
 
 ---
 
-### Notes
-- `>` overwrites files, while `>>` appends content. 
-- `cat` displays file content quickly, useful for verification. 
-- On the exam, you may also use `vi`, `vim`, or `nano` to edit files. 
+## INSTRUCTIONS
+
+1. Create a new directory `~/text_practice`. 
+2. Inside it, create a file named `welcome.txt`. 
+3. Add the line "Welcome to the RHCSA practice lab" to the file. 
+4. Edit the same file and append the line "You are learning essential Linux tools."
+5. Display the contents of the file and confirm both lines exist. 

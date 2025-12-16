@@ -1,6 +1,7 @@
 ## Task 5
 
 **Exam Category:** Understand and Use Essential Tools 
+
 **Exam Objective:** Log in and switch users in multiuser targets 
 
 ---

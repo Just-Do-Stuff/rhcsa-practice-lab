@@ -1,6 +1,7 @@
 ## Task 2
 
 **Exam Category:** Understand and Use Essential Tools 
+
 **Exam Objective:** Use input-output redirection (>, >>, |, 2>, etc.) 
 
 **Purpose:** 

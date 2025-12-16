@@ -1,6 +1,7 @@
-##Task 8
+## Task 8
 
 **Exam Category:** Understand and Use Essential Tools 
+
 **Exam Objective:** Create, delete, copy, and move files and directories 
 
 ---

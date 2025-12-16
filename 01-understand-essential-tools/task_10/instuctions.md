@@ -1,3 +1,9 @@
+## Task 10
+
+**Exam Category**: Understand and use essential tools
+
+**Exam Objective**: List, set, and change standard ugo/rwx permissions
+
 ## INSTRUCTIONS
 
 1. Create a directory named `~/permissions_practice`. 
