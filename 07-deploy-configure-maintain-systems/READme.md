@@ -2,10 +2,7 @@ Category 07 — Deploy, Configure, and Maintain Systems
 
 ## Purpose
 
-This category covers core system administration tasks aligned with **RHCSA exam objectives**.
-All tasks assume a functioning Linux system with standard tools available.
-
-The focus is on **using** system services and tools — not troubleshooting subscriptions or external dependencies.
+The focus is on using system services and tools — not troubleshooting subscriptions or external dependencies.
 
 ---
 

@@ -2,71 +2,78 @@ Category 08 — Manage Basic Networking
 
 ## Purpose
 
-This category covers basic network configuration tasks.
-The focus is on configuring networking using NetworkManager tools, making sure changes are activated and persistent.
+This category covers basic network configuration and security.
+The focus is on configuring network settings correctly and activating changes.
 
 ---
 
-## Core Exam Objectives Covered
+## Tools Used
 
-You will practice how to:
+For ease and consistency, all network configuration tasks in this category use:
+
+- **nmtui** (NetworkManager Text User Interface)
+
+nmcli is another tool we can use but for the exam use nmtui to avoid syntax errors.
+
+---
+
+## VERY IMPORTANT: Network Activation
+
+⚠️ **Network changes do NOT take effect until the connection is activated.**
+
+After making changes in `nmtui`, you must:
+- Activate the modified connection
+- Or bring the connection down and back up
+
+Failure to activate the connection is one of the most common reasons people **FAIL** the exam.
+
+# ACTIVATE THE NETWORK, ACTIVATE THE NETWORK, ACTIVATE THE NETWORK!!!!!
+
+---
+
+## Network Addressing Requirement
+
+Always configure static IP addresses within your local subnet.
+
+Using an IP outside your network will result in loss of connectivity unless routing or VLANs are configured (out of scope topic. RHCSA will not be testing on that).
+
+Before configuring a static IP, you should:
+
+1. Identify your current network details
+2. Verify:
+   - IP address range
+   - Subnet mask / prefix
+   - Default gateway
+
+Use the following commands to inspect your network:
+
+```
+ip addr
+ip route
+nmcli device status
+```
+
+Use this information to choose an appropriate static IP address for your environment.
+
+---
+
+## What You Will Practice
+
+You will learn how to:
 
 - Configure IPv4 and IPv6 addresses
 - Configure hostname resolution
-- Ensure network services start automatically at boot
-- Restrict network access using firewalld and firewall-cmd
+- Configure network services to start automatically at boot
+- Restrict network access using `firewalld`
 
 ---
 
-## IMPORTANT: Activating Network Changes
+## Safety Notice
 
-⚠️ **This is critical for RHCSA success OR YOU WILL FAIL THE EXAM**
+Network misconfiguration can cause **loss of connectivity**.
 
-Making network changes does **NOT** automatically apply them.
+You are strongly encouraged to:
+- Practice on a virtual machine
+- Use console access (not SSH) while learning
+- Take a snapshot before starting
 
-After configuring a network connection, you **must activate it** for changes to take effect.
-
-Failure to activate the connection is one of the most common causes of FAILING the exam.
-
----
-
-## Tooling Choice: nmtui (Recommended for exam)
-
-Why nmtui:
-- Reduces syntax errors
-- Ensures NetworkManager compatibility
-- Ideal for exam environments
-
----
-
-## Activation Rules (Read Carefully)
-
-After making changes in nmtui, you must:
-
-- Reactivate the connection
-  - Either by disconnecting/reconnecting
-  - Or by restarting NetworkManager
-
-If the network is not activated:
-- IP changes will not apply
-- Hostname resolution tests may fail
-- Firewall tests may appear broken
-
----
-
-## Safety Notes
-
-- Always confirm your active connection before modifying it
-- Avoid disconnecting your only network interface on a remote system
-- Practice on a local VM when possible
-
----
-
-## Task Structure
-
-Each task includes:
-
-- `instructions.md` — exam-style task description
-- `answer.md` — one valid solution
-
-Multiple solutions may exist. Focus on achieving the required **outcome**.
