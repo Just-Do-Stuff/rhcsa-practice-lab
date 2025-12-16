@@ -1,4 +1,4 @@
-# RHCSA Supplement Practice Tasks
+# RHCSA Supplement Practice Tasks - RHEL 10
 
 ## Purpose
 
@@ -9,7 +9,7 @@ Each objective is organized into:
 
 - Exam-style tasks (`instructions.md`) 
 - Corresponding answers (`answer.md`) 
-- Folders grouped by **exam category**, each with its own `README.md`
+- Folders grouped by exam category, each with its own `README.md`
 
 ---
 
@@ -56,6 +56,7 @@ For the best experience and to match RHCSA-style setups:
     - SSH practice  
     - `scp` file transfers  
     - NFS and other network-based tasks
+- Obtain the RHEL 10 iso. It's free with a developer account. [Go Here](https://developers.redhat.com/products/rhel/download)
 
 You can use any hypervisor (VirtualBox, VMware, KVM, Proxmox, etc.) as long as both VMs can reach each other over the network.
 
