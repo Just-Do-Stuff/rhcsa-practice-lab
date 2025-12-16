@@ -1,4 +1,3 @@
-
 # RHCSA Practice Lab 
 
 
@@ -6,7 +5,7 @@
 This repository provides hands-on, exam-style exercises for each RHCSA objective. It’s designed to help learners practice tasks aligned with real-world system administration scenarios.
 
 Each objective includes:
-- 2 exam-style **tasks** (`instructions.md`)
+- Exam-style **tasks** (`instructions.md`)
 - Corresponding **answers** (`answer.md`)
 - Organized folders by **exam category**
 
