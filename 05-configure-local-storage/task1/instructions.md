@@ -1,14 +1,13 @@
-ategory 05: Configure Local Storage (Main Tasks)
+Task 1 — Create LVM Storage and Mount Persistently
 
-These tasks use **fdisk** and LVM. Replace `/dev/your_disk` with the disk you created via README[]
+### Instructions
 
----
-
-# Task 1 — Create a Partition, PV, VG, LV
-
-## Instructions
-1. Identify your practice disk (`lsblk`).
-2. Create a 500M partition using `fdisk`.
-3. Change partition type to Linux LVM.
-4. Create a Physical Volume, Volume Group, and Logical Volume.
-5. Remove the LV, VG, and PV safely.
+1. Create a new partition using `fdisk` on a secondary disk for LVM usage.
+2. Initialize the partition as a Physical Volume (PV).
+3. Create a Volume Group named `vg_data`.
+4. Create a Logical Volume named `lv_data` with a size of 2G.
+5. Format the LV with an ext4 filesystem.
+6. Assign a filesystem label.
+7. Mount the filesystem at `/mnt/data`.
+8. Configure the mount to persist across reboots using UUID or LABEL.
+9. Verify the mount.
