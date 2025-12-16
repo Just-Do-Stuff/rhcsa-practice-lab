@@ -76,8 +76,9 @@ If you dont have a reliable pc, you can use labex.io. However, I am not sure if 
 ## 2. Start with the first exam category 
    Go to [`01-understand-essential-tools/`](https://github.com/Just-Do-Stuff/rhcsa-practice-lab/tree/main/01-understand-essential-tools) and:
 
-   - **Read the category `README.md` first.** 
+   - **Read the `README.md` first.** 
      It explains the goals, tools, and important notes for that category.
+   - Please make sure you are reading the README for each category.
 
 ## 3. Then go task by task inside the category
 
