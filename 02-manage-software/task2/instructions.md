@@ -1,3 +1,11 @@
+## Task 2
+
+**Exam Category:** Manage software
+
+**Exam Objectives:**
+- Configure access to Flatpak repositories
+- Install and remove Flatpak software packages
+
 ## INSTRUCTIONS
 
 1. Enable the Flatpak framework on your system if not already installed.  
