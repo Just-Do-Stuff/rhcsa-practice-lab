@@ -1,4 +1,4 @@
-##Category 04 — Operate Running Systems
+## Category 04 — Operate Running Systems
 
 ---
 
@@ -42,13 +42,6 @@ In this category, you will learn how to:
 - Securely transfer files between systems.
 
 ---
-
-## How This Category Is Organized
-
-Each task in this category is split into two files:
-
-- `instructions.md` – the exam‑style prompt describing the situation and required outcome.
-- `answer.md` – one possible solution with commands and example verification steps. 
 
 **Recommended workflow:**
 
