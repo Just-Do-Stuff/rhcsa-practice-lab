@@ -10,7 +10,7 @@ Each objective is organized into:
 - Exam-style tasks (`instructions.md`) 
 - Corresponding answers (`answer.md`) 
 - Folders grouped by exam category, each with its own `README.md`
-- Each category corresponds with the RHCSA exam Category. Which can be found here: [RHCSA Exam Objectives](https://www.redhat.com/en/services/training/ex200-red-hat-certified-system-administrator-rhcsa-exam) 
+- Each category corresponds with a RHCSA exam Category. Which can be found here: [RHCSA Exam Objectives](https://www.redhat.com/en/services/training/ex200-red-hat-certified-system-administrator-rhcsa-exam) 
 
 ---
 
