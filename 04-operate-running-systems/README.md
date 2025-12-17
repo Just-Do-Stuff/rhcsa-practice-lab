@@ -23,7 +23,6 @@ Before attempting recovery or boot‑related tasks, keep in mind:
 - When changing the default target, confirm you can still log in after a reboot. 
 - Always test critical changes while you still have a working session open (for example, a second terminal or console), so you are not locked out.
 
-Failure to plan boot and service changes is a common reason candidates lose time—or temporarily lose access—on the exam.
 
 ---
 
