@@ -7,7 +7,7 @@
 - This category focuses on writing and running basic shell scripts.
 - The goal is to help you practice the core scripting skills that may appear on the exam.
 - We will work with arguments, conditionals, loops, and command output in simple, practical scripts.
-- You will not build anything overly complex here—just small, focused scripts.
+- You will not build anything overly complex here..just small, focused scripts.
 
 
 You are free to use any editor, but your scripts should always be executable and runnable directly from the command line.
@@ -40,7 +40,7 @@ In this category, you will learn how to:
 - Use `for` loops to iterate over files and directories. 
 - Read and use script parameters (`$1`, `$2`, etc.) 
 - Capture and process the output of shell commands inside a script. 
-- Write small, task-focused scripts that solve specific problems.
+- Write small, task focused scripts that solve specific problems.
 
 Each practice script is designed to be short and realistic, so you can quickly test and repeat until the logic feels natural.
 
