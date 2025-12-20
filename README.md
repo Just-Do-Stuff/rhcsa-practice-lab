@@ -3,7 +3,10 @@
 ## Purpose
 
 This repository provides hands-on, exam-style exercises for each RHCSA objective. 
-It’s designed so you can practice tasks in a way that feels like you are taking the exam. 
+It’s designed so you can practice tasks in a way that sort of reflects the exam.
+
+**This is to be used as a supplemental resource AFTER you have went through Sander Van Vugt's RHCSA video course.
+You will not pass by going through this supplemental resource alone.**
 
 Each objective is organized into:
 
@@ -53,7 +56,7 @@ For the best experience and to match RHCSA-style setups:
 
 - Use at least two VMs:
   - One as your primary practice system
-  - One as a **second system** for:
+  - One as a second system for:
     - SSH practice  
     - `scp` file transfers  
     - NFS and other network-based tasks
@@ -115,11 +118,10 @@ To get the most out of this lab:
 - Treat every task like a real RHCSA exam question. 
 - Make sure ALL changes persist after a reboot. 
 - Time yourself occasionally to simulate exam pressure. 
-- Avoid copy-pasting commands; type them out. There is 0 critical thinking happening when you copy and paste. Respect yourself and just avoid it!
-- If something breaks, don’t reset immediately—try to fix it using logs, `journalctl`, and `man` pages.
+- Avoid copy-pasting commands; type them out. There is 0 critical thinking happening when you copy and paste. Dont be a zombie.
+- If something breaks, don’t reset immediately—try to fix it using logs, `journalctl`, and `man` pages. 
 - Study for at least 3 hours a day. Go longer during the weekends.
-
----
+- There are multiple ways to reach the same result. The methods shown are my preference,any approach is acceptable as long as the output matches and persists.
 
 ## Disclaimer
 
