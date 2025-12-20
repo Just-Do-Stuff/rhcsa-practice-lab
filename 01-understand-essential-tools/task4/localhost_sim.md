@@ -1,8 +1,5 @@
 # SSH Practice Without a Remote System (Localhost Simulation)
 
-**Exam Category:** Understand and Use Essential Tools 
-**Exam Objective:** Access remote systems using SSH 
-
 ---
 
 ## Purpose
