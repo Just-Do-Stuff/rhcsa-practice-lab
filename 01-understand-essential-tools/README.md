@@ -73,7 +73,7 @@ Each task is designed to isolate one or two of these objectives so you can pract
 ## Tasks in This Category
 
 
-### Task 1 – Shell Access and Basic Commands
+### Task 1 – [Shell Access and Basic Commands](https://github.com/Just-Do-Stuff/rhcsa-practice-lab/tree/main/01-understand-essential-tools/task1)
 
 You will practice:
 
@@ -83,7 +83,7 @@ You will practice:
 
 ---
 
-### Task 2 – Redirection and Pipes
+### Task 2 – [Redirection and Pipes](https://github.com/Just-Do-Stuff/rhcsa-practice-lab/tree/main/01-understand-essential-tools/task2)
 
 You will practice:
 
@@ -93,7 +93,7 @@ You will practice:
 
 ---
 
-### Task 3 – Text Searching with grep and Regular Expressions
+### Task 3 – [Text Searching with grep and Regular Expressions](https://github.com/Just-Do-Stuff/rhcsa-practice-lab/tree/main/01-understand-essential-tools/task3)
 
 You will practice:
 
@@ -103,7 +103,7 @@ You will practice:
 
 ---
 
-### Task 4 – SSH Access and Remote Work
+### Task 4 – [SSH Access and Remote Work](https://github.com/Just-Do-Stuff/rhcsa-practice-lab/tree/main/01-understand-essential-tools/task4)
 
 You will practice:
 
@@ -114,7 +114,7 @@ You will practice:
 
 ---
 
-### Task 5 – Logging In and Switching Users
+### Task 5 – [Logging In and Switching Users](https://github.com/Just-Do-Stuff/rhcsa-practice-lab/tree/main/01-understand-essential-tools/task5)
 
 You will practice:
 
@@ -125,7 +125,7 @@ You will practice:
 
 ---
 
-### Task 6 – Archiving and Compression
+### Task 6 – [Archiving and Compression](https://github.com/Just-Do-Stuff/rhcsa-practice-lab/tree/main/01-understand-essential-tools/task6)
 
 You will practice:
 
@@ -135,7 +135,7 @@ You will practice:
 
 ---
 
-### Task 7 – Create and Edit Text Files
+### Task 7 – [Create and Edit Text Files](https://github.com/Just-Do-Stuff/rhcsa-practice-lab/tree/main/01-understand-essential-tools/task7)
 
 You will practice:
 
@@ -145,7 +145,7 @@ You will practice:
 
 ---
 
-### Task 8 – File and Directory Management
+### Task 8 – [File and Directory Management](https://github.com/Just-Do-Stuff/rhcsa-practice-lab/tree/main/01-understand-essential-tools/task8)
 
 You will practice:
 
@@ -155,7 +155,7 @@ You will practice:
 
 ---
 
-### Task 9 – Hard and Soft Links
+### Task 9 – [Hard and Soft Links](https://github.com/Just-Do-Stuff/rhcsa-practice-lab/tree/main/01-understand-essential-tools/task9)
 
 You will practice:
 
@@ -165,7 +165,7 @@ You will practice:
 
 ---
 
-### Task 10 – Permissions and Ownership
+### Task 10 – [Permissions and Ownership](https://github.com/Just-Do-Stuff/rhcsa-practice-lab/tree/main/01-understand-essential-tools/task_10)
 
 You will practice:
 
