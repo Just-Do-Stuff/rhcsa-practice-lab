@@ -116,7 +116,7 @@ If you dont have a reliable pc, you can use labex.io. However, I am not sure if 
 To get the most out of this lab:
 
 - Treat every task like a real RHCSA exam question. 
-- Make sure ALL changes persist after a reboot. 
+- **Make sure ALL changes persist after a reboot**. 
 - Time yourself occasionally to simulate exam pressure. 
 - Avoid copy-pasting commands; type them out. There is 0 critical thinking happening when you copy and paste. Dont be a zombie.
 - If something breaks, don’t reset immediately—try to fix it using logs, `journalctl`, and `man` pages. 
