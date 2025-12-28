@@ -3,7 +3,7 @@ Category 06 — Create and Configure File Systems
 
 ## Purpose
 
-This category focuses on using the storage you createdi in [Category 05](https://github.com/Just-Do-Stuff/rhcsa-practice-lab/tree/main/05-configure-local-storage). 
+This category focuses on using the storage you created in [Category 05](https://github.com/Just-Do-Stuff/rhcsa-practice-lab/tree/main/05-configure-local-storage). 
 Here you will practice creating and mounting file systems, extending logical volumes, working with NFS, and using autofs for on‑demand mounts.
 
 ---
