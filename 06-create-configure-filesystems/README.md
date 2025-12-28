@@ -1,4 +1,4 @@
-ategory 06 — Create and Configure File Systems
+Category 06 — Create and Configure File Systems
 =================================================
 
 ## Purpose
